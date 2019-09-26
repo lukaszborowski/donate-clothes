@@ -1,0 +1,46 @@
+.about-section{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  width: 100%;
+  background-color: #EFEFEF;
+
+  .about-info{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+      font-size: 46px;
+      font-weight: 400;
+    }
+    .decoration{
+      background-image: url("./img/decoration.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 70px;
+      width: 250px;
+
+    }
+    p {
+      width: 70%;
+      text-align: center;
+      font-size: 30px;
+      line-height: 2em;
+    }
+
+  }
+
+  .img{
+    background-image: url("./img/about.jpg");
+    background-size: cover;
+    height: 90%;
+    width: 50%;
+  }
+
+
+}

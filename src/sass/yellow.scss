@@ -1,0 +1,38 @@
+.yellow-section {
+  background-color: #FCCD14;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35vh;
+
+  .yellow-element {
+    padding:0 5% ;
+    width: 30%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 90px;
+    font-weight: 300;
+    color: #5C5522;
+
+
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #5C5522;
+
+
+  }
+  p{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #5C5522;
+
+  }
+
+}
